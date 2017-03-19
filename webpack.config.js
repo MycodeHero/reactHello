@@ -1,10 +1,10 @@
 module.exports = {
 	entry: './src/js/entry.js',
-	output: {
-		// path : './static/',
-		publicPath: 'https://localhost:8080/static/',
-		filename: 'entry.js'
-	},
+	 output: {
+        path: './static/',
+        publicPath: './static/',
+        filename: 'entry.js'
+    },
 	module:{
 		rules:[
 			{test:/.less$/, use: ['style-loader', 'css-loader', 'less-loader']},
