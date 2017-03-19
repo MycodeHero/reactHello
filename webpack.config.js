@@ -2,7 +2,7 @@ module.exports = {
 	entry: './src/js/entry.js',
 	output: {
 		// path : './static/',
-		publicPath: 'http://localhost:8080/static/',
+		publicPath: 'https://localhost:8080/static/',
 		filename: 'entry.js'
 	},
 	module:{
